@@ -56,12 +56,12 @@
     margin: 2rem 0rem 0rem 3rem;
     border: 1px solid rgb(35, 107, 173);
     border-radius: .5rem;
-    background-color: rgba(41, 123, 223, 0.698);
+    background-color: rgb(50 54 90 / 50%);
     box-shadow: .4rem .4rem 1rem rgb(6, 38, 46);
     color: rgb(255, 255, 255);
 }
 .button:hover{
-    background-color: rgb(31, 66, 224);
+    background-color: rgba(27, 51, 160, 0.438);
     color: ivory;
     transition: .5s;;
 }
@@ -72,11 +72,11 @@
         font-size: 55%;
     }
     #bg1{
-        height: 131rem;
+        height: 135rem;
         width: 70rem;
     }
     .main h2{
-        top: 18rem;
+        top: 20rem;
         left: 29rem;
         font-size: 4rem;
         }
@@ -95,7 +95,7 @@
         }
         .btn{
         left: 22%;
-        top:78%;
+        top:80%;
         }
         .button{
             font-size: 3rem;
