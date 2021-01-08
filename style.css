@@ -65,24 +65,26 @@
     color: ivory;
     transition: .5s;;
 }
-@media(max-width:700px){
+
+
+@media only screen and (max-width:600px){
     html{
         font-size: 55%;
     }
     #bg1{
         height: 128rem;
-        width: 125rem;
+        width: 70rem;
     }
     .main h2{
         top: 18rem;
-        left: 57rem;
+        left: 29rem;
         font-size: 4rem;
         }
         .card{
-            width: 90rem;
-            height: 58rem;
+            width: 64rem;
+            height: 55rem;
             top: 50rem;
-            left: 17rem;
+            left: 3rem;
             text-align: center;
         }
         .quotes{
@@ -93,41 +95,9 @@
         }
         .btn{
         left: 22%;
+        top:78%;
         }
         .button{
             font-size: 3rem;
         }
-}
-@media(max-width:320px){
-    html{
-        font-size:30%;
-    }
-    #bg1{
-        height: 164rem;
-        width: 67rem;
-    }
-    .main h2{
-    top: 22rem;
-    left: 24rem;
-    font-size: 6rem;
-    }
-    .card{
-        width: 51rem;
-        height: 68rem;
-        top: 62rem;
-        left: 8rem;
-        text-align: center;
-    }
-    .quotes{
-        font-size: 3rem;
-    }
-    .authors{
-        font-size: 2.5rem;
-    }
-    .btn{
-    left: 10%;
-    }
-    .button{
-        font-size: 3rem;
-    }
 }
