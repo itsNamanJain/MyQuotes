@@ -1,0 +1,133 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Baloo Bhai 2', cursive;}
+    #bg1{
+        height: 65rem;
+        width: 134rem;
+    }
+    html{
+        font-size: 62.5%;
+    }
+.main h2{
+    color: white;
+    position: absolute;
+    top: 8rem;
+    left:63rem;
+    font-size: 3rem;
+}
+.card{
+    width: 55rem;
+    background-image: url(bg2.jpg);
+    height: 40rem;
+    border-radius:.5rem;
+    position: absolute;
+    top: 20rem;
+    left: 40rem;
+    margin-bottom: 5rem;
+    box-shadow: .2rem .2rem 1rem rgb(20, 16, 16);
+}
+.quotes{
+    text-align: center;
+    padding-top: 6rem;
+    margin: .5rem 2.5rem;
+    color: white;
+    font-size: 2rem;
+}
+.authors{
+    
+    padding: .5rem;
+    margin: .5rem 1.5rem;
+    color: white;
+    font-size: 2rem;
+   text-align: center;
+   margin-top: 2rem;
+}
+.btn{
+    position: absolute;
+    top: 64%;
+    left: 24%;
+    padding: .5rem 1.5rem;
+}
+.button {
+
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    margin: 2rem 0rem 0rem 3rem;
+    border: 1px solid rgb(35, 107, 173);
+    border-radius: .5rem;
+    background-color: rgba(41, 123, 223, 0.698);
+    box-shadow: .4rem .4rem 1rem rgb(6, 38, 46);
+    color: rgb(255, 255, 255);
+}
+.button:hover{
+    background-color: rgb(31, 66, 224);
+    color: ivory;
+    transition: .5s;;
+}
+@media(max-width:700px){
+    html{
+        font-size: 55%;
+    }
+    #bg1{
+        height: 128rem;
+        width: 125rem;
+    }
+    .main h2{
+        top: 18rem;
+        left: 57rem;
+        font-size: 4rem;
+        }
+        .card{
+            width: 90rem;
+            height: 58rem;
+            top: 50rem;
+            left: 17rem;
+            text-align: center;
+        }
+        .quotes{
+            font-size: 4rem;
+        }
+        .authors{
+            font-size: 3rem;
+        }
+        .btn{
+        left: 22%;
+        }
+        .button{
+            font-size: 3rem;
+        }
+}
+@media(max-width:320px){
+    html{
+        font-size:30%;
+    }
+    #bg1{
+        height: 164rem;
+        width: 67rem;
+    }
+    .main h2{
+    top: 22rem;
+    left: 24rem;
+    font-size: 6rem;
+    }
+    .card{
+        width: 51rem;
+        height: 68rem;
+        top: 62rem;
+        left: 8rem;
+        text-align: center;
+    }
+    .quotes{
+        font-size: 3rem;
+    }
+    .authors{
+        font-size: 2.5rem;
+    }
+    .btn{
+    left: 10%;
+    }
+    .button{
+        font-size: 3rem;
+    }
+}
