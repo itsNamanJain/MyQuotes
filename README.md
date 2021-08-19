@@ -1,4 +1,4 @@
 You Can Checkout this at
 
-https://jnaman243.github.io/MyQuotes/
+https://tweet-quotes.netlify.app/
 
